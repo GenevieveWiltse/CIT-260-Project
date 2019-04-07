@@ -17,5 +17,20 @@ public class HardCopy extends Books {
     public void setPages(int pages) {
         this.pages = pages;
     }
-    
+
+    // select pages
+
+    public bookPages(){
+
+    }
+
+    // select fiction/non fiction
+    public hardCopyFiction(){
+
+    }
+    // output in display recommended books with pages and synopsis.
+    @Override
+    public String toString() {
+        return super.toString();
+    }
 }
